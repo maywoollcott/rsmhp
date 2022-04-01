@@ -1,0 +1,21 @@
+.missionContainer {
+  background-color: var(--navy);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.missionBodyContainer {
+  width: 50%;
+  text-align: left;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.missionBodyParagraph {
+  padding-bottom: 14px;
+}

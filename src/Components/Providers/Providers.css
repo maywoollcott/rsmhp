@@ -1,0 +1,55 @@
+.providersContainer {
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.namesContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.biosContainer {
+  flex: 1;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.nameText {
+  font-size: 18px;
+  color: var(--navy);
+  font-weight: 500;
+}
+
+.selectedNameText {
+  font-size: 18px;
+  color: var(--navy);
+  font-weight: 500;
+  font-weight: 700;
+}
+
+.bioText {
+  color: var(--navy);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nameText:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.providerPic {
+  height: 300px;
+}
+
+.providersContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 850px;
+}

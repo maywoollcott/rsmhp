@@ -1,0 +1,30 @@
+.contactUsContainer {
+  background-color: var(--navy);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contactText {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 500;
+  width: 40%;
+  margin-top: 5%;
+}
+
+.contactButton {
+  background-color: var(--white);
+  border-radius: 15px;
+  padding: 30px;
+  outline: none;
+  border-color: transparent;
+  appearance: inherit;
+}
+
+.contactButton:hover {
+  background-color: var(--yellow);
+  cursor: pointer;
+}
