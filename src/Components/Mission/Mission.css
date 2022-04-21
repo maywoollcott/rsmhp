@@ -19,3 +19,28 @@
 .missionBodyParagraph {
   padding-bottom: 14px;
 }
+
+@media (max-width: 500px) {
+
+  .missionContainer {
+    background-color: var(--navy);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .missionBodyContainer {
+    width: 75%;
+    text-align: left;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .missionBodyParagraph {
+    padding-bottom: 14px;
+  }
+}

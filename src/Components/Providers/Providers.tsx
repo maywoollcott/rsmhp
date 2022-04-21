@@ -14,7 +14,7 @@ const Providers = () => {
     <div className='providersContainer'>
       <div className='providersContent'>
         <div className='namesContainer'>
-          <p className='header' style={{ fontSize: 50, marginBottom: 100 }}>
+          <p className='providersHeader'>
             Providers
           </p>
           {providerData.map((provider, index) => {

@@ -11,3 +11,19 @@
   width: 18%;
   margin-bottom: 30px;
 }
+
+@media (max-width: 500px) {
+  .landingContainer {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+  
+  .logoImg {
+    width: 18%;
+    margin-bottom: 30px;
+  }
+}
