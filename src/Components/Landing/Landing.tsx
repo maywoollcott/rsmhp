@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <div className='landingContainer'>
       <img src='./teamwork.png' className='logoImg'></img>
-      <p className='header'>RSMHPA</p>
+      <p className='landingHeader'>RSMHPA</p>
       <p className='header2'>Russian-Speaking Mental Health Providers Association</p>
     </div>
   );

@@ -12,6 +12,13 @@
   margin-bottom: 30px;
 }
 
+.landingHeader {
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 0;
+}
+
 @media (max-width: 500px) {
   .landingContainer {
     height: 90vh;
@@ -25,5 +32,12 @@
   .logoImg {
     width: 18%;
     margin-bottom: 30px;
+  }
+
+  .landingHeader {
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 0;
   }
 }
