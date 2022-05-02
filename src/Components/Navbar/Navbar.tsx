@@ -27,6 +27,11 @@ const NavBar = () => {
             Contact Us
           </Link>
         </li>
+        {/* <li>
+          <Link to='ResourcesContainer' spy={true} smooth={true}>
+            Resources
+          </Link>
+        </li> */}
       </ul>
     </div>
   );

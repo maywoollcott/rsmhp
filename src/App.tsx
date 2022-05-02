@@ -6,6 +6,7 @@ import Landing from './Components/Landing/Landing';
 import ContactUs from './Components/ContactUs/ContactUs';
 import Mission from './Components/Mission/Mission';
 import Providers from './Components/Providers/Providers';
+import Resources from './Components/Resources/Resources';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Mission />
         <Providers />
         <ContactUs />
+        {/* <Resources /> */}
       </div>
     </div>
   );

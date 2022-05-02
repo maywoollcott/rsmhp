@@ -1,0 +1,46 @@
+.ResourcesContainer {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.ResourcesBodyContainer {
+  width: 50%;
+  text-align: left;
+  color: var(--navy);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.ResourcesBodyParagraph {
+  padding-bottom: 14px;
+}
+
+@media (max-width: 500px) {
+
+  .ResourcesContainer {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .ResourcesBodyContainer {
+    width: 75%;
+    text-align: left;
+    color: var(--navy);
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .ResourcesBodyParagraph {
+    padding-bottom: 14px;
+  }
+}
