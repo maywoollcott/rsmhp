@@ -8,12 +8,22 @@ const NavBar = () => {
       <p className='logo'>RSMHPA</p>
       <ul>
         <li>
-          <Link activeClass='active' to='landingContainer' spy={true} smooth={true}>
+          <Link
+            activeClass='active'
+            to='landingContainer'
+            spy={true}
+            smooth={true}
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link activeClass='active' to='missionContainer' spy={true} smooth={true}>
+          <Link
+            activeClass='active'
+            to='missionContainer'
+            spy={true}
+            smooth={true}
+          >
             Mission
           </Link>
         </li>
@@ -27,11 +37,11 @@ const NavBar = () => {
             Contact Us
           </Link>
         </li>
-        {/* <li>
+        <li>
           <Link to='ResourcesContainer' spy={true} smooth={true}>
             Resources
           </Link>
-        </li> */}
+        </li>
       </ul>
     </div>
   );

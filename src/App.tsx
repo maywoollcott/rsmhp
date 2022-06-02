@@ -17,7 +17,7 @@ function App() {
         <Mission />
         <Providers />
         <ContactUs />
-        {/* <Resources /> */}
+        <Resources />
       </div>
     </div>
   );

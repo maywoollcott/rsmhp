@@ -9,19 +9,43 @@
 }
 
 .ResourcesBodyContainer {
-  width: 50%;
-  text-align: left;
+  width: 60%;
   color: var(--navy);
   font-size: 18px;
   font-weight: 500;
 }
 
 .ResourcesBodyParagraph {
-  padding-bottom: 14px;
+  text-align: center;
+}
+
+.ResourcesHeader {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--navy);
+  padding-top: 20px;
+}
+
+.ResourcesBullet {
+  text-align: left;
+}
+
+.ResourcesNumber {
+  font-weight: 700;
+  display: inline;
+}
+
+.ResourcesWebsite {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.ResourcesWebsite:hover {
+  color: var(--yellow);
+  font-weight: 700;
 }
 
 @media (max-width: 500px) {
-
   .ResourcesContainer {
     background-color: var(--white);
     display: flex;
@@ -31,7 +55,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  
+
   .ResourcesBodyContainer {
     width: 75%;
     text-align: left;
@@ -39,7 +63,7 @@
     font-size: 16px;
     font-weight: 500;
   }
-  
+
   .ResourcesBodyParagraph {
     padding-bottom: 14px;
   }
